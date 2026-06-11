@@ -1,0 +1,185 @@
+body{
+    background-color: #E5E5E5;
+    margin: 0;
+}
+
+.faq-section{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 80px 20px;
+
+}
+
+.faq-heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.faq-heading h1{
+    font-family: "Outfit", sans-serif;
+    font-size: 3rem;
+    color: #1A1C1C;
+    font-weight: 500;
+}
+
+.faq-heading p{
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    font-weight: 300;
+}
+
+.faq-container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* faq box*/
+
+.faq-item{
+    background: #ffffff;
+    border-radius: 16px;
+    margin-bottom: 18px;
+    overflow: hidden;
+
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.08);
+}
+
+.faq-question{
+    width: 100%;
+
+    padding: 22px 28px;
+
+    border: none;
+    background: #ffffff;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    cursor: pointer;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+
+    color: #1A1C1C;
+}
+
+.faq-question i{
+    color: #feb301;
+    transition: 0.3s ease;
+}
+
+.faq-answer{
+    max-height: 0;
+    overflow: hidden;
+
+    transition: max-height 0.3s ease;
+
+    background-color: #d3e8d5;
+}
+
+.faq-answer p{
+    padding: 0 28px 24px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+
+    line-height: 1.8;
+    color: #000000;
+}
+
+.faq-item.active .faq-answer{
+    max-height: 300px;
+}
+
+.faq-item.active i{
+    transform: rotate(180deg);
+}
+
+
+/* =========================
+   Tablet
+========================= */
+
+@media (max-width: 1024px){
+
+    .faq-section{
+        padding: 60px 30px;
+    }
+
+    .faq-heading h1{
+        font-size: 2.5rem;
+    }
+
+}
+
+
+/* =========================
+   Mobile
+========================= */
+
+@media (max-width: 768px){
+
+    .faq-section{
+        padding: 50px 20px;
+    }
+
+    .faq-heading h1{
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    .faq-heading p{
+        font-size: 1rem;
+    }
+
+    .faq-question{
+        padding: 18px 20px;
+
+        font-size: 1rem;
+
+        text-align: left;
+    }
+
+    .faq-answer p{
+        padding: 0 20px 20px;
+
+        font-size: 0.95rem;
+
+        line-height: 1.7;
+    }
+
+    .faq-question i{
+        margin-left: 15px;
+        flex-shrink: 0;
+    }
+
+}
+
+
+/* =========================
+   Smaller Phones
+========================= */
+
+@media (max-width: 480px){
+
+    .faq-heading h1{
+        font-size: 1.7rem;
+    }
+
+    .faq-heading p{
+        font-size: 0.9rem;
+    }
+
+    .faq-question{
+        font-size: 0.95rem;
+        padding: 16px;
+    }
+
+    .faq-answer p{
+        font-size: 0.9rem;
+    }
+
+}

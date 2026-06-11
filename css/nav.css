@@ -1,0 +1,471 @@
+/* NAV WRAPPER */
+.navigation-wrapper {
+    height: 120px;
+    background-color: #00340d;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 40px;
+}
+
+/* LEFT: LOGO */
+.left-column {
+    display: flex;
+    align-items: center;
+}
+
+.left-column .logo img {
+    width: 180px;
+    height: auto;
+}
+
+/* RIGHT: MENU */
+.right-column {
+    display: flex;
+    align-items: center;
+}
+
+/* MENU LAYOUT */
+.links-wrapper {
+    display: flex;
+    gap: 40px; /* reduce from 90px */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* LINKS */
+.nav-link a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 1rem;
+}
+
+.nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 1px;
+}
+
+.nav-link a.active-nav {
+    color: #cea135;
+    letter-spacing: 1px;
+}
+
+/* =========================
+   Dropdown Base
+========================= */
+
+.dropdown{
+    position: relative;
+}
+
+/* Dropdown Box */
+.dropdown-menu{
+    position: absolute;
+    top: 120%;
+    left: 0;
+
+    min-width: 190px;
+
+    background-color: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px 10px 10px 10px;
+
+    border-radius: 12px;
+
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.12);
+
+    opacity: 0;
+    visibility: hidden;
+
+    transform: translateY(10px);
+
+    transition: 0.25s ease;
+
+    z-index: 999;
+}
+
+/* Dropdown Links */
+.dropdown-menu a{
+    color: #1A1C1C;
+
+    text-decoration: none;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 0.95rem;
+    font-weight: 400;
+
+    display: block;  /*important to keep */
+    width: 100%;     /*corrected the menu width */
+    box-sizing: border-box;   /*padding within width*/
+
+
+}
+
+/* Hover Effect of Dropdown Menu */
+.dropdown-menu a:hover{
+    background-color: #f5f5f5;
+    color: #feb301;
+    border-radius: 15px;
+    padding-left: 10px;
+
+    transform: translateX(6px);
+
+}
+
+/* Show Dropdown Menu */
+.dropdown:hover .dropdown-menu{
+    opacity: 1;
+    visibility: visible;
+
+    transform: translateY(0);
+}
+
+.links-wrapper .dropdown:last-child .dropdown-menu{
+    left: auto;
+    right: 0;
+}
+
+
+/* =========================
+   Nested Dropdown menu
+========================= */
+
+/* Supplier Market section title */
+.dropdown-heading {
+    color: #1A1C1C;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+
+    padding: 2px 18px 6px 18px;
+
+    letter-spacing: 0.5px;
+
+    cursor: default;
+}
+
+/* Slight indentation for sub-items */
+.dropdown-section a {
+    padding-left: 26px;
+}
+
+.dropdown-section a:hover {
+    transform: translateX(6px);
+    padding-left: 5px;
+    border-radius: 20px;
+}
+
+
+/* Divider */
+.dropdown-divider {
+    height: 1.5px;
+    background: #e8e8e8;
+    margin: 8px 0;
+    padding-left: 10px;
+}
+
+/* HAMBURGER HIDDEN On Desktop */
+.hamburger {
+    display: none;
+    font-size: 1.8rem;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* =========================
+   FLOATING NAV BUTTON
+========================= */
+
+.floating-nav-btn{
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+
+    width: 58px;
+    height: 58px;
+
+    border-radius: 50%;
+
+    background: #1B5E20;
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.3rem;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+
+    cursor: pointer;
+
+    z-index: 9999;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition: all 0.3s ease;
+}
+
+.floating-nav-btn.show{
+    opacity: 1;
+    visibility: visible;
+}
+
+.floating-nav-btn:hover{
+    transform: translateY(-3px);
+}
+
+
+/* =========================
+   FLOATING MENU CONTAINER
+========================= */
+
+.floating-menu{
+    position: fixed;
+    right: 24px;
+    bottom: 90px;
+
+    width: 260px;
+
+    background: #d9d9d9;
+    border-radius: 14px;
+
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    transform: scale(0.95);
+    opacity: 0;
+    visibility: hidden;
+
+    transition: all 0.25s ease;
+
+    z-index: 9998;
+
+
+}
+
+.floating-menu.show{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+
+/* =========================
+   MAIN LINKS
+========================= */
+
+.floating-menu a{
+    color: #00340d;
+    text-decoration: none;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9rem;
+
+    opacity: 0.95;
+
+    transition: all 0.25s ease;
+}
+
+.floating-menu a:hover{
+    opacity: 1;
+    transform: translateX(6px);
+    color: #FEB301;
+}
+
+
+/* =========================
+   DROPDOWN GROUPS
+========================= */
+
+.floating-group{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.floating-parent{
+    color: #1A1C1C;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 0.95rem;
+    font-weight: 500;
+
+    padding: 6px 0;
+
+    cursor: default;
+}
+
+.floating-submenu{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    padding-left: 12px;
+
+    border-left: 2px solid rgba(255,255,255,0.25);
+}
+
+.floating-submenu a{
+    font-size: 0.85rem;
+    opacity: 0.9;
+}
+
+.floating-submenu a:hover{
+    opacity: 1;
+}
+
+/* MOBILE MENU DEFAULT STATE */
+@media (max-width: 768px) {
+
+    .hamburger {
+        display: block;
+    }
+
+    .right-column {
+        display: none; /* hide menu initially */
+        width: 100%;
+    }
+
+    .right-column.active {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .links-wrapper {
+        flex-direction: column;
+        gap: 15px;
+        background-color: #00340d;
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .navigation-wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+    }
+}
+
+
+
+
+/* Layout for Other Screens */
+
+/* =========================
+   Tablet
+========================= */
+@media (max-width: 1024px) {
+    .navigation-wrapper {
+        padding: 0 20px;
+    }
+
+    .links-wrapper {
+        gap: 20px;
+    }
+
+    .left-column .logo img {
+        width: 140px;
+    }
+}
+
+/* =========================
+   Mobile Phone
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    .hamburger {
+        display: block;
+    }
+
+    .navigation-wrapper {
+        min-height: 120px;
+        padding: 0 20px;
+    }
+
+    .right-column {
+        position: absolute;
+        top: 120px;
+        left: 0;
+
+        width: 100%;
+
+        background: #00340d;
+
+        max-height: 0;
+
+        overflow: hidden;
+
+        transition: max-height 0.35s ease;
+    }
+
+    .right-column.active {
+        max-height: 700px;
+    }
+
+    .links-wrapper {
+        flex-direction: column;
+
+        gap: 4px;
+
+        padding: 10px 0;
+
+        text-align: center;
+    }
+
+    .nav-link {
+        width: 100%;
+    }
+
+    .nav-link a {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .dropdown-menu {
+        position: static;
+
+        background-color: #014b13;
+
+        box-shadow: none;
+
+        border-radius: 8px;
+
+        margin-top: 4px;
+
+        max-height: 0;
+
+        overflow: hidden;
+
+        transition: max-height 0.3s ease;
+    }
+
+    .dropdown-menu a {
+        color: white;
+
+        padding: 8px 14px;
+
+        font-size: 0.9rem;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        max-height: 200px;
+    }
+}
+
+

@@ -1,0 +1,814 @@
+/* New-top Section */
+
+.new-top{
+    background-image:
+    linear-gradient(
+        rgba(0, 69, 13, 0.55),
+        rgba(0, 69, 13, 0.55)
+    ),
+    url(../assets/images/backgrounds/pexels-roman-odintsov-5668041.jpg);
+
+    min-height: 71vh;
+
+    padding: 40px 40px;
+
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    gap: 12px;
+}
+
+.newhead{
+    background-color: #FFFFFF;
+    display: inline-block;
+    padding: 8px 38px;
+    border-radius: 40px;
+}
+
+.newhead h6{
+    margin: 0;
+    font-size: 2rem;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    color: #1A1C1C;
+}
+
+/* Subtitle & Paragraph Section*/
+
+.mainewhead{
+    color: #FFFFFF;
+}
+
+.mainewhead h1{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.newhead-subtitle{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-family: "Outfit", sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-left: 15%;
+}
+
+.headp{
+color: #6B6352;
+margin-left: 15%;
+padding-bottom: 40px;
+font-family: "Poppins", sans-serif;
+font-size: 1.2rem;
+font-weight: 300;
+max-width: 900px;
+}
+
+
+/* Mission-Section with cards */
+
+.mission-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+
+    max-width: 1200px;
+    margin: 0 auto;
+
+    padding: 60px 40px;
+}
+
+.mission-section > div{
+    background-color: #FFFFFF;
+
+    padding: 30px 25px;
+    min-height: 260px;
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 20px;
+
+    justify-content: flex-start;
+
+    transition: 0.3s ease;
+
+    box-shadow: 0px 8px 24px rgba(0,0,0,0.10);
+}
+
+/* Hover effect to cards */
+.mission-section > div:hover{
+    transform: scale(1.08);
+    transition: 0.3s ease;
+}
+
+/* Icons */
+.mission-section i{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2.4rem;
+
+    color: #1A1C1C;
+
+    width: 72px;
+    height: 72px;
+
+    margin-bottom: 20px;
+
+    background-color: #ceead9;
+
+    border-radius: 18px;
+    /* padding:20px; */
+
+    transition: 0.3s ease;
+
+}
+
+.mission-section > div:hover i{
+    box-shadow: 0 0 0 4px #FEB301;
+    transform: translateY(-5px);
+}
+
+/* Mission cards headings*/
+.mission-section h2{
+    font-size: 1.25rem;
+    font-family: 'Poppins', sans-serif;
+
+    color: #1A1C1C;
+
+    font-weight: 500;
+
+    margin-bottom: 14px;
+}
+
+/* Mission cards paragraphs */
+.mission-section p{
+    font-size: 0.95rem;
+
+    line-height: 1.7;
+
+    color: #4B5563;
+
+    font-family: "Poppins", sans-serif;
+
+    font-weight: 300;
+}
+
+
+/* Top-section */
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+
+    padding: 80px 60px;
+    background-color: #E5E5E5;
+}
+
+.heading h1{
+    font-size: 3rem;
+    color: #00340d;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    display: inline-block;
+    padding: 10px 60px;
+    border-radius: 40px;
+    font-family: Outfit, sans-serif;
+    font-weight: 500;
+}
+
+.heading h2{
+    font-size: 2rem;
+    color: #0F3D2E;
+    margin-bottom: 30px;
+    font-family: Outfit, sans-serif;
+    font-weight: 500;
+}
+
+.list p{
+    font-size: 1.1rem;
+    margin-bottom: 16px;
+    line-height: 1.6;
+    color: #50493b;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.problem-item{
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+
+    margin-bottom: 20px;
+}
+
+.problem-item i{
+    color: #D62828;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+.problem-item p{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #50493b;
+
+    margin: 0;
+}
+
+/* LEFT SIDE */
+.top-content{
+    flex: 1;
+    max-width: 700px;
+}
+
+/* RIGHT SIDE */
+.top-image{
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-image img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+
+    border-radius: 20px;
+
+    object-fit: cover;
+
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+}
+
+/* Second Section */
+
+.second-section{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 80px 20px;
+
+    min-height: 60vh;
+
+    background-color: #00340d;
+}
+
+/* Small heading */
+.second-head h2{
+    font-size: 2rem;
+    color: #FFFFFF;
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
+
+    margin-bottom: 15px;
+}
+
+/* Main heading */
+.second-head2 h1{
+    font-size: 4rem;
+    color: #FFFFFF;
+    font-family: Outfit, sans-serif;
+    font-weight: 500;
+
+
+    margin: 0 0 25px 0;
+
+    max-width: 900px;
+
+    line-height: 1.1;
+}
+
+/* Paragraph */
+.second-para p{
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+
+    max-width: 700px;
+
+    line-height: 1.7;
+
+    margin: 0;
+}
+
+
+/* clusters */
+
+.clusters{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+
+    width: 100%;
+    max-width: 1200px;
+
+    margin-top: 60px;
+}
+
+/* Clusters dropdown menu */
+
+.cluster-dropdown{
+    position: relative;
+    overflow: visible;
+    cursor: pointer;
+}
+
+.cluster-dropdown h2{
+    margin-top: 10px;
+}
+
+/* Hidden dropdown menu */
+
+.cluster-menu{
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.15);
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition:
+        opacity 0.25s ease,
+        transform 0.25s ease,
+        visibility 0.25s ease;
+
+    position:absolute;
+    top: 100%;
+    left: 50%;
+
+    transform: translateX(-50%) translateY(10px);
+
+    min-width: 220px;
+
+    z-index: 999;
+
+    pointer-events: none;
+}
+
+/* For the links */
+
+.cluster-menu a{
+    padding: 14px 18px;
+
+    color: #00340d;
+
+    text-decoration: none;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 0.95rem;
+
+    transition: 0.2s ease;
+    display: block;
+}
+
+.cluster-menu a:hover{
+    background-color: #F5F5F5;
+    color: #FEB301;
+}
+
+.cluster-menu a:first-child{
+    border-radius: 12px 12px 0 0;
+}
+
+.cluster-menu a:last-child{
+    border-radius: 0 0 12px 12px;
+}
+
+/* Desktop Hover Only */
+@media (min-width: 769px){
+
+    .cluster-dropdown:hover .cluster-menu{
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(-50%) translateY(0);
+        pointer-events: auto;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+}
+
+/* style every cluster as a card */
+
+.clusters > div{
+    background-color: rgba(255,255,255,0.05);
+    padding: 30px 20px;
+    border-radius: 16px;
+    color:#FFFFFF;
+
+    text-align: center;
+
+    transition: 0.3s ease;
+}
+
+.clusters h2{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+.clusters p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.clusters i{
+    color: #feb301;
+    font-size: 4rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.clusters > div:hover{
+    transform: translateY(-8px);
+    background-color: rgba(255,255,255,0.1);
+}
+
+/* platform features section */
+
+.platformfeats{
+    padding-top: 50px;
+    background-color: #4B5563;
+}
+
+.platformfheads{
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.platformfhead1 h1{
+    margin: 0;
+    font-size: 2rem;
+    color: #00340d;
+    background-color: #FFFFFF;
+    display: inline-block;
+    padding: 10px 60px;
+    border-radius: 40px;
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
+}
+
+.platformfhead2 h1{
+    margin: 10px 0 0 0;
+    font-size: 4rem;
+    color: #FFFFFF;
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
+}
+
+
+/* The features grid?*/
+
+.featsummary{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 28px;
+
+    padding: 55px 70px 80px 70px;
+
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+/* ALL FEATURE CARDS */
+.featsummary > div{
+    background-color: #FFFFFF;
+
+    padding: 22px 20px;
+
+    border-radius: 20px;
+
+    text-align: left;
+
+    transition: 0.3s ease;
+
+    box-shadow: 0px 8px 24px rgba(0,0,0,0.10);
+}
+
+/* HOVER EFFECT */
+.featsummary > div:hover{
+    transform: scale(1.08);
+    transition: 0.3s ease;
+}
+
+/* ICONS */
+.featsummary i{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2.4rem;
+
+    color: #1A1C1C;
+
+    width: 72px;
+    height: 72px;
+
+    margin-bottom: 20px;
+
+    background-color: #ceead9;
+
+    border-radius: 18px;
+    /* padding:20px; */
+
+    transition: 0.3s ease;
+
+}
+
+.featsummary > div:hover i{
+    box-shadow: 0 0 0 4px #FEB301;
+    transform: translateY(-5px);
+}
+
+/* FEATURE HEADINGS */
+.featsummary h2{
+    font-size: 1.25rem;
+    font-family: 'Poppins', sans-serif;
+
+    color: #1A1C1C;
+
+    font-weight: 500;
+
+    margin-bottom: 14px;
+}
+
+/* FEATURE PARAGRAPHS */
+.featsummary p{
+    font-size: 0.95rem;
+
+    line-height: 1.7;
+
+    color: #4B5563;
+
+    font-family: "Poppins", sans-serif;
+
+    font-weight: 300;
+}
+
+
+/* Compatibility for devices/Responsiveness */
+
+/* =========================
+   Large Tablets
+========================= */
+@media (max-width: 1200px){
+
+    .clusters{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .featsummary{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .second-head2 h1,
+    .platformfhead2 h1{
+        font-size: 3.2rem;
+    }
+}
+
+
+/* =========================
+   Tablets
+========================= */
+@media (max-width: 992px){
+
+    .top-section{
+        flex-direction: column;
+        text-align: center;
+
+        padding: 70px 40px;
+    }
+
+    .top-content{
+        max-width: 100%;
+    }
+
+    .top-image img{
+        max-width: 100%;
+    }
+
+    .problem-item{
+        justify-content: center;
+        text-align: left;
+    }
+
+    .second-head2 h1,
+    .platformfhead2 h1{
+        font-size: 2.8rem;
+    }
+
+    .second-para p{
+        font-size: 1.05rem;
+    }
+
+    .clusters{
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 24px;
+    }
+
+    .featsummary{
+        grid-template-columns: repeat(2, 1fr);
+
+        padding: 50px 40px 70px 40px;
+    }
+}
+
+
+/* =========================
+   Mobile Devices
+========================= */
+@media (max-width: 768px){
+
+        /* New-top Section */
+    .new-top{
+        min-height: 60vh;
+        padding: 30px 20px;
+    }
+
+    .newhead{
+        padding: 6px 24px;
+    }
+
+    .newhead h6{
+        font-size: 1.2rem;
+    }
+
+    .mainewhead h1{
+        font-size: 2rem;
+        line-height: 1.3;
+    }
+
+    /* Why Farmpalm exists section */
+    .newhead-subtitle{
+        font-size: 2rem;
+        margin-left: 0;
+        text-align: center;
+        padding: 40px 20px 20px;
+    }
+
+    .headp{
+        margin-left: 0;
+        padding: 0 20px 30px;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    /* MISSION CARDS */
+    .mission-section{
+        grid-template-columns: 1fr;
+        padding: 40px 20px;
+    }
+
+    .mission-section > div{
+        min-height: auto;
+    }
+
+    .top-section{
+        padding: 60px 25px;
+        gap: 40px;
+    }
+
+    .heading h1{
+        font-size: 2rem;
+
+        padding: 10px 35px;
+    }
+
+    .heading h2{
+        font-size: 1.5rem;
+    }
+
+    .list p,
+    .problem-item p{
+        font-size: 1rem;
+    }
+
+    .second-section{
+        padding: 70px 20px;
+    }
+
+    .second-head h2{
+        font-size: 1.5rem;
+    }
+
+    .second-head2 h1{
+        font-size: 2.2rem;
+
+        line-height: 1.2;
+    }
+
+    .second-para p{
+        font-size: 1rem;
+    }
+
+    .clusters{
+        grid-template-columns: 1fr;
+    }
+
+    .clusters i{
+        font-size: 3rem;
+    }
+
+    /* clusters to dropdown for mobile */
+
+    .cluster-dropdown.active .cluster-menu{
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(-50%) translateY(0);
+        pointer-events: auto;
+    }
+
+    .arrow{
+        padding-left: 30px;
+        padding-top: 150px;
+    }
+
+    .platformfhead1 h1{
+        font-size: 1.4rem;
+
+        padding: 10px 35px;
+    }
+
+    .platformfhead2 h1{
+        font-size: 2.2rem;
+
+        line-height: 1.2;
+
+        padding: 0 20px;
+    }
+
+    .featsummary{
+        grid-template-columns: 1fr;
+
+        padding: 40px 20px 60px 20px;
+    }
+
+    .featsummary i{
+        width: 64px;
+        height: 64px;
+
+        font-size: 2rem;
+    }
+}
+
+
+/* =========================
+   Smaller Phones
+========================= */
+@media (max-width: 480px){
+
+        .mainewhead h1{
+        font-size: 1.6rem;
+    }
+
+    .newhead-subtitle{
+        font-size: 1.6rem;
+    }
+
+    .headp{
+        font-size: 0.95rem;
+    }
+
+    .heading h1{
+        font-size: 1.6rem;
+    }
+
+    .heading h2{
+        font-size: 1.3rem;
+    }
+
+    .second-head2 h1,
+    .platformfhead2 h1{
+        font-size: 1.8rem;
+    }
+
+    .clusters > div,
+    .featsummary > div{
+        padding: 20px 16px;
+    }
+}

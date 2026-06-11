@@ -1,0 +1,1107 @@
+/* Farm-top Section */
+
+.farm-top{
+    background-image:
+    url(../assets/images/backgrounds/Frame\ 34741\ \(1\).png);
+
+    min-height: 60vh;
+
+    padding: 80px 80px;
+
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.farmhead{
+    background-color: #FFFFFF;
+    display: inline-block;
+    padding: 8px 38px;
+    border-radius: 40px;
+}
+
+.farmhead h6{
+    margin: 0;
+    font-size: 2rem;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    color: #1A1C1C;
+}
+
+/* Subtitle & Paragraph Section*/
+
+
+.farmain1 h1{
+    font-family: "Outfit", sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 3rem;
+    margin: 0;
+    line-height: 1;
+    padding-top: 20px;
+}
+
+.highlight{
+    color: #FEB301;
+}
+
+.farmhead-subtitle{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-family: "Outfit", sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-left: 15%;
+}
+
+.farmp1{
+color: #FFFFFF;
+margin-left: 0;
+padding-top: 20px;
+padding-bottom: 40px;
+font-family: "Inter", sans-serif;
+font-size: 1.5rem;
+font-weight: 300;
+max-width: 620px;
+}
+
+
+.invite-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    padding: 16px 32px;
+    border-radius: 10px;
+
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+
+    text-decoration: none;
+}
+
+.join-btn {
+    background-color: #FEB301;
+    color: #FFFFFF;
+}
+
+.join-btn:visited,
+.join-btn:hover,
+.join-btn:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.join-btn:hover {
+    background-color: #6abb71;
+    color: #1A1C1C;
+    transform: translateY(-2px);
+}
+
+/* farmer price cards */
+
+.farm-left {
+    flex: 1;
+}
+
+.farm-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+/* 2x2 grid arrangment */
+.price-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* transparent card look */
+.price-card {
+    background: rgba(255, 255, 255, 0.08);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(10px);
+
+    padding: 20px;
+    border-radius: 18px;
+
+    color: white;
+    min-width: 180px;
+}
+
+/* styling for card text */
+
+.price-card h2 {
+    color: #FEB301;
+    font-size: 1.6rem;
+    margin: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.price-card p {
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    margin: 6px 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 50;
+}
+
+.trend {
+    color: #7CFC90; /* light green */
+    font-size: 0.85rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 50;
+}
+
+/* Tools Section */
+
+.farm-tools {
+    background-color: #E5E5E5;
+    margin-top: 0 auto;
+    padding-bottom: 30px;
+}
+
+.farm-tools1{
+    margin-left: 10%;
+    padding-top: 20px;
+}
+
+.farm-tools1 h4{
+    background-color: #FFFFFF;
+    color: #0F3D2E;
+    font-weight: 500;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    padding: 8px 38px;
+    border-radius: 40px;
+}
+
+.farm-tools1 h2{
+    color: #1A1C1C;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+}
+
+.farm-tools1 p{
+    color: #6B6352;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.farmfeat-sub h2 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    margin: 0;
+}
+
+.farmfeat-sub p {
+    font-size: 0.9;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #6B6352;
+    margin: 0;
+}
+
+.farmfeat-sub {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+    margin-left: 15%;
+}
+
+.farmfeat-sub i {
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    min-width: 24px;
+    background-color: #54a359;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Platform Features */
+
+.platfeats{
+    padding-top: 40px;
+    background-color: #F0EDE4;
+}
+
+
+.platfeats1 h4{
+    background-color: #E8F5F9;
+    color: #0F3D2E;
+    font-weight: 500;
+    font-family: "Outfit", sans-serif;
+    margin-left: 40%;
+    display: inline-block;
+    padding: 8px 38px;
+    border-radius: 45px;
+}
+
+.platfeats1 h2{
+    color: #1A1C1C;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+}
+
+.platfeats1 h1{
+    color: #1A1C1C;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    margin-left: 25%;
+}
+
+
+/* Platform features with cards */
+
+.plat-cardsection{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 30px;
+
+    max-width: 1200px;
+    margin: 0 auto;
+
+    padding: 60px 40px;
+}
+
+.plat-cardsection > div{
+    background-color: #FFFFFF;
+
+    padding: 30px 25px;
+    min-height: 260px;
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 20px;
+
+    justify-content: flex-start;
+
+    transition: 0.3s ease;
+
+    box-shadow: 0px 8px 24px rgba(0,0,0,0.10);
+}
+
+/* Hover effect to cards */
+.plat-cardsection > div:hover{
+    transform: scale(1.08);
+    transition: 0.3s ease;
+}
+
+/* Icons */
+.plat-cardsection i{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2.4rem;
+
+    color: #16A34A;
+
+    width: 72px;
+    height: 72px;
+
+    margin-left: 25%;
+
+    margin-bottom: 20px;
+
+    padding:20px;
+
+    transition: 0.3s ease;
+
+}
+
+.plat-cardsection > div:hover i{
+    box-shadow: 0 0 0 4px #FEB301;
+    border-radius: 20px;
+    transform: translateY(-5px);
+}
+
+/* Platform features cards headings*/
+.plat-cardsection h6{
+    font-size: 1.25rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+    color: #1A1C1C;
+
+    font-weight: 500;
+
+    margin-bottom: 14px;
+}
+
+.plat-cardsection .number{
+    background-color: #16A34A;
+    border-radius: 50px;
+    padding: 20px;
+    margin: auto;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* platform feartures cards paragraphs */
+.plat-cardsection p{
+    font-size: 0.95rem;
+
+    line-height: 1.7;
+
+    text-align: center;
+
+    color: #4B5563;
+
+    font-family: "Poppins", sans-serif;
+
+    font-weight: 300;
+}
+
+
+/* Live Market Section */
+
+
+.livemark{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.livemark h4{
+    background-color: #E8F5F9;
+    color: #0F3D2E;
+    font-weight: 500;
+    font-family: "Outfit", sans-serif;
+    margin-left: 10%;
+    display: inline-block;
+    padding: 8px 38px;
+    border-radius: 45px;
+}
+
+.livemark h1{
+    color: #1A1C1C;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    margin-left: 10%;
+}
+
+
+/* Market Price Cards */
+
+.market-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+
+    max-width: 1300px;
+
+    margin: 50px auto 0;
+
+    padding: 0 40px 80px;
+
+    background-color: #F0EDE4;
+    margin-top: auto;
+}
+
+.market-card{
+    background: #FFFFFF;
+
+    border: 1px solid #DDE8D8;
+
+    border-radius: 24px;
+
+    padding: 35px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+
+    transition: 0.3s ease;
+}
+
+.market-card:hover{
+    transform: translateY(-8px);
+}
+
+.market-card h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+
+    color: #1A1C1C;
+
+    margin-bottom: 30px;
+}
+
+.market-price{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 2rem;
+    font-weight: 550;
+
+    color: #0E8A3D;
+
+    margin-bottom: 25px;
+}
+
+.market-price span{
+    font-size: 1.4rem;
+    color: #1A1C1C;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+.market-trend{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    color: #0E8A3D;
+
+    font-family: "Plus Jakarta", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+
+    margin-bottom: 20px 0;
+}
+
+.market-trend.negative{
+    color: #DC2626; /* red */
+}
+
+.market-trend i{
+    font-size: 1.3rem;
+}
+
+
+.market-location{
+    color: #4B5563;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+
+    margin-bottom: 30px;
+}
+
+/* Fake chart line */
+
+.market-graph{
+    height: 70px;
+    margin-top: 20px;
+
+    /* border-radius: 12px;
+
+    background:
+    linear-gradient(
+        135deg,
+        rgba(22,163,74,0.15),
+        rgba(22,163,74,0.03)
+    ); */
+
+    position: relative;
+
+    /* overflow: hidden; */
+}
+
+.market-graph::before{
+    content:"";
+
+    position:absolute;
+    inset: 0;
+
+    /* left:10px;
+    right:10px;
+    top:50%;
+
+    height:3px; */
+
+    /* background:#16A34A; */
+
+    background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 100'%3E%3Cpolyline fill='none' stroke='%2316A34A' stroke-width='4' points='0,80 40,60 80,65 120,40 160,50 220,25 300,5'/%3E%3C/svg%3E")
+    center/contain no-repeat;
+
+    /* transform:
+    skewX(-35deg)
+    translateY(-50%); */
+}
+
+/* downward graph in market card */
+.negative-card .market-graph::before{
+    background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 100'%3E%3Cpolyline fill='none' stroke='%23DC2626' stroke-width='4' points='0,15 40,25 80,22 120,40 160,38 200,55 240,50 300,85'/%3E%3C/svg%3E")
+    center/contain no-repeat;
+}
+
+.livemark-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 20px 10% 0 10%;
+
+    gap: 20px;
+}
+
+.livemark-row h1{
+    margin: 0;
+}
+
+.livemark-buttons{
+    display: flex;
+    gap: 15px;
+}
+
+.market-btn{
+    text-decoration: none;
+
+    padding: 14px 28px;
+
+    border-radius: 10px;
+
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+
+    transition: 0.3s ease;
+}
+
+/* Yellow Sell Harvest button */
+
+.sell-btn{
+    background: #FEB301;
+    color: #1A1C1C;
+    font-family: "Outfit", sans-serif;
+}
+
+.sell-btn:hover{
+    background: #e2a100;
+    transform: translateY(-2px);
+}
+
+/* Green Log Harvest button */
+
+.log-btn{
+    background: #1B5E20;
+    color: #FFFFFF;
+    font-family: "Outfit", sans-serif;
+}
+
+.log-btn:hover{
+    background: #154a19;
+    transform: translateY(-2px);
+}
+
+/* price tip */
+
+.ptips{
+    background-color: #F0EDE4;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.price-tip {
+    width: 80%;
+    margin: 30px auto 0 auto; /* centers it */
+    background: #E8F5F9;
+    border-radius: 12px;
+    padding: 18px 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-tip-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    color: #1B5E20;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.price-tip-icon {
+    font-size: 22px;
+    margin-top: 2px;
+}
+
+
+/* Log Harvest Modal or Pop-up Form */
+
+.modal-title{
+    text-align: center;
+
+    font-family: "Outfit", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+
+    color: #1A1C1C;
+
+    margin-bottom: 24px;
+}
+
+.log-modal{
+    display:none;
+
+    position:fixed;
+    inset:0;
+
+    background:rgba(0,0,0,0.55);
+
+    z-index:9999;
+
+    justify-content:center;
+    align-items:center;
+
+    padding: 30px 20px;
+    overflow-y: auto;
+}
+
+.log-modal.active{
+    display:flex;
+}
+
+.log-modal-content{
+    background:#FFFFFF;
+
+    width:90%;
+    max-width:420px;
+
+    border-radius:16px;
+
+    padding:22px;
+
+    position:relative;
+
+    box-shadow:0 15px 40px rgba(0,0,0,0.20);
+
+    max-height:90vh;
+
+    overflow-y:auto;
+}
+
+.log-modal-content h2{
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 20px;
+    color: #1A1C1C;
+}
+
+.close-modal{
+    position: absolute;
+
+    top: 12px;
+    right: 18px;
+
+    font-size: 2rem;
+
+    cursor: pointer;
+
+    color: #6B6352;
+
+    z-index: 100;
+}
+
+.form-group{
+    margin-bottom: 14px;
+}
+
+.form-group label{
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+
+    color:#1A1C1C;
+}
+
+.form-group input,
+.form-group select{
+    width:100%;
+
+    padding:12px 14px;
+
+    border:1px solid #D9D9D9;
+
+    border-radius:10px;
+
+    font-family:"Inter", sans-serif;
+
+    font-size:0.95rem;
+
+    box-sizing:border-box;
+}
+
+.date-input-wrapper{
+    position:relative;
+}
+
+.date-input-wrapper i{
+    position:absolute;
+
+    right:16px;
+    top:50%;
+
+    transform:translateY(-50%);
+
+    color:#6B6352;
+
+    pointer-events:none;
+}
+
+.estimate-card{
+    background:#b7f5ce;
+
+    border-radius:14px;
+
+    padding:16px;
+
+    margin-top:18px;
+    margin-bottom:18px;
+
+    text-align:left;
+}
+
+.estimate-label{
+    color:#1A1C1C;
+
+    font-size:0.85rem;
+
+    margin-bottom:8px;
+
+    font-family:"Inter", sans-serif;
+}
+
+.estimate-card h3{
+    color:#1B5E20;
+
+    font-size:2rem;
+
+    margin-bottom:8px;
+
+    font-family:"Plus Jakarta Sans", sans-serif;
+}
+
+.estimate-meta{
+    color:#1A1C1C;
+
+    font-size:0.9rem;
+
+    font-family:"Inter", sans-serif;
+}
+
+.confirm-btn{
+    width:100%;
+
+    background:#1B5E20;
+
+    color:#FFFFFF;
+
+    border:none;
+
+    padding:16px;
+
+    border-radius:10px;
+
+    font-size:1rem;
+
+    font-weight:600;
+
+    font-family:"Inter", sans-serif;
+
+    cursor:pointer;
+
+    transition:0.3s ease;
+}
+
+.confirm-btn:hover{
+    background:#154719;
+}
+
+.confirm-btn i{
+    margin-left:10px;
+}
+
+/* Sell Harvest Modal or Pop-up Form */
+
+.best-price-card{
+    background:#b7f5ce;
+
+    border-radius:14px;
+
+    padding:18px;
+
+    margin-bottom:22px;
+
+    text-align:left;
+}
+
+.best-price-label{
+    color: #1A1C1C;
+
+    font-size:0.85rem;
+
+    margin-bottom:8px;
+
+    font-family:"Inter", sans-serif;
+}
+
+.best-price-card h3{
+    margin:0;
+
+    color:#1B5E20;
+
+    font-size:2rem;
+
+    font-family:"Plus Jakarta Sans", sans-serif;
+}
+
+/* Post Listing Button */
+
+.post-listing-btn{
+    width:100%;
+
+    border:none;
+
+    background:#FEB301;
+
+    color:#1A1C1C;
+
+    padding:16px;
+
+    border-radius:10px;
+
+    font-family:"Inter", sans-serif;
+    font-size:1rem;
+    font-weight:600;
+
+    cursor:pointer;
+
+    margin-top:10px;
+
+    transition:0.3s ease;
+}
+
+.post-listing-btn:hover{
+    background:#e2a100;
+    transform:translateY(-2px);
+}
+
+
+
+
+
+/* RESPONSIVENESS */
+
+/* ====================== 
+Tablet (1024px and below)
+=========================*/
+
+@media (max-width: 1024px){
+
+    .farm-top{
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 40px;
+    }
+
+    .farm-left,
+    .farm-right{
+        width: 100%;
+    }
+
+    .farmp1{
+        margin: 0 auto;
+    }
+
+    .price-grid{
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .plat-cardsection{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .market-cards{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .livemark-row{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/* ====================== 
+Mobile (768px and below)
+=========================*/
+
+@media (max-width: 768px){
+
+    .farm-top{
+        padding: 50px 20px;
+        gap: 40px;
+    }
+
+    .farmhead h6{
+        font-size: 1.2rem;
+    }
+
+    .farmain1 h1{
+        font-size: 2.2rem;
+    }
+
+    .farmp1{
+        font-size: 1rem;
+        max-width: 100%;
+    }
+
+    .invite-btn{
+        width: 150px;
+    }
+
+    .price-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .price-card{
+        min-width: auto;
+    }
+
+    .farm-tools1{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .farmfeat-sub{
+        margin-left: 20px;
+        margin-right: 20px;
+        align-items: flex-start;
+    }
+
+    .farmfeat-sub i{
+        padding: 14px;
+        font-size: 1.4rem;
+    }
+
+    .platfeats1 h4{
+        margin-left: 0;
+    }
+
+    .platfeats1{
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .platfeats1 h1{
+        margin-left: 0;
+        font-size: 2rem;
+    }
+
+    .plat-cardsection{
+        grid-template-columns: 1fr;
+        padding: 30px 20px;
+    }
+
+    .plat-cardsection i{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .livemark h4{
+        margin-left: 20px;
+    }
+
+    .livemark-row{
+        margin: 20px;
+    }
+
+    .livemark-row h1{
+        font-size: 2rem;
+    }
+
+    .livemark-buttons{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .market-btn{
+        text-align: center;
+    }
+
+    .market-cards{
+        grid-template-columns: 1fr;
+        padding: 0 20px 60px;
+    }
+
+    .market-card{
+        padding: 24px;
+    }
+
+    .market-card h3{
+        font-size: 1.4rem;
+    }
+
+    .market-price{
+        font-size: 1.6rem;
+    }
+
+    .price-tip{
+        width: calc(100% - 40px);
+    }
+
+    .price-tip-content{
+        flex-direction: column;
+    }
+}
+
+
+/* ============================== 
+Smaller Phones (768px and below)
+=================================*/
+
+@media (max-width: 480px){
+
+    .farmain1 h1{
+        font-size: 1.8rem;
+    }
+
+    .farmhead{
+        padding: 8px 20px;
+    }
+
+    .farmhead h6{
+        font-size: 1rem;
+    }
+
+    .price-card{
+        padding: 16px;
+    }
+
+    .price-card h2{
+        font-size: 1.4rem;
+    }
+
+    .livemark-row h1{
+        font-size: 1.6rem;
+    }
+
+    .market-card{
+        padding: 20px;
+    }
+
+    .log-modal-content{
+        width: 95%;
+        max-width: none;
+        padding: 20px;
+    }
+}

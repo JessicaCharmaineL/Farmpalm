@@ -1,0 +1,553 @@
+/* Hero section style */
+.hero-section{
+    background-image:
+    linear-gradient(
+        rgba(0, 55, 10, 0.678),
+        rgba(0, 45, 9, 0.827)
+    ),
+    url(../assets/images/backgrounds/alkemade-palm-tree-3387205.jpg);
+
+    min-height: 50vh;
+
+    padding: 35px 20px;
+
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    gap: 12px;
+}
+
+/* Remove default margins */
+.hero-section h1,
+.hero-section h4{
+    margin: 0;
+}
+
+/* Top heading */
+.hero-section > .top-heading h1{
+    color: #FFFFFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 64px;
+    line-height: 1.05;
+}
+
+/* Middle heading */
+.hero-section > .mid-heading h1{
+    color: #feb301;
+    font-family: "Outfit", sans-serif;
+    font-size: 64px;
+    line-height: 1.05;
+}
+
+/* Bottom text */
+.hero-section > .bottom-heading h4{
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 1.5;
+
+    margin-top: 12px;
+}
+
+/* Section Summing up Site Stats */
+.stats-section{
+    background: #feb301;
+    padding: 4px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0;
+
+}
+
+.stat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.stat h2{
+    font-family: "Outfit", sans-serif;
+    font-size: 2rem;
+    color: #1B5E20;
+    margin: 0;
+    font-weight: 500;
+}
+
+.stat h2.money{
+    color:#1B5E20 ; /* green emphasis for revenue */
+}
+
+.stat p{
+    font-family: "Outfit", sans-serif;
+    font-size: 1.2rem;
+    color: #1A1C1C;
+    margin-top: 6px;
+    font-weight: 400;
+}
+
+/* payment plan section */
+
+.payplan{
+    background-color: #F5F0FE;
+    padding-top: 10%;
+    align-items: center;
+}
+
+.payhead{
+    background-color: #FFFFFF;
+    display: table;
+    padding: 8px 38px;
+    border-radius: 40px;
+    margin: 0 auto;
+    font-family: "Outfit", sans-serif;
+}
+
+.payhead h6{
+    margin: 0;
+    font-size: 2rem;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    color: #1A1C1C;
+}
+
+/* Subtitle & Paragraph Section*/
+
+.paymain h1{
+    font-family: "Outfit", sans-serif;
+    color: #1A1C1C;
+    font-weight: 400;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1;
+    padding-top: 20px;
+}
+
+.payp1{
+color: #71717A;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 40px;
+font-family: "Poppins", sans-serif;
+font-size: 0.9rem;
+font-weight: 300;
+/* max-width: 620px; */
+}
+
+
+.plans-section{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    padding: 30px 40px 80px;
+    flex-wrap: nowrap;
+}
+
+.plan-card{
+    background: #ffffff;
+    width: 310px;
+    padding: 35px;
+    border-radius: 24px;
+    position: relative;
+    box-shadow: 0 15px 40px rgba(0,0,0,.08);
+}
+
+.plan-card.featured{
+    background: #1B5E20;
+    color: white;
+    transform: scale(1.03);
+}
+
+.popular-badge{
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #FEB301;
+    color: #1A1C1C;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+.plan-card h2{
+    font-family: "Outfit", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-weight: 400;
+    color: #1A1C1C;
+}
+
+.plan-desc{
+    color: #4B5563;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.featured .plan-desc{
+    color: rgba(255,255,255,.85);
+}
+
+.plan-tier{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 8px;
+    font-family: "Poppins", sans-serif;
+    color: #1A1C1C;
+}
+
+.plan-price{
+    margin-bottom: 25px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.price{
+    font-size: 2.3rem;
+    font-weight: 500;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.duration{
+    color: #1A1C1C;
+    font-family: "Poppins", sans-serif;
+}
+
+.featured .duration{
+    color: rgba(255,255,255,.8);
+}
+
+.empty-space{
+    height: 45px;
+}
+
+.features{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px 0;
+}
+
+.features li{
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.included i{
+    color: #1B5E20;
+}
+
+.featured .included i{
+    color: #FEB301;
+}
+
+.excluded{
+    color: #B7B7B7;
+}
+
+.excluded i{
+    color: #B7B7B7;
+}
+
+.plan-btn{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: #FFFFFF;
+    color: #1B5E20;
+    padding: 14px;
+    border-radius: 12px;
+    font-weight: 600;
+    outline: #1B5E20;
+    transition: .3s;
+}
+
+.featured .plan-btn{
+    background: #FEB301;
+    color: #1B5E20;
+}
+
+.plan-btn:hover{
+    transform: translateY(-2px);
+}
+
+/* Starter Button */
+
+.starter-btn{
+    background: #FFFFFF;
+    color: #1B5E20;
+    border: 2px solid #1B5E20;
+}
+
+.starter-btn:hover{
+    background: #1B5E20;
+    color: #FFFFFF;
+}
+
+
+/* Enterprise Button */
+
+.enterprise-btn{
+    background: #FEB301;
+    color: #000000;
+    border: 2px solid #FEB301;
+}
+
+.enterprise-btn:hover{
+    background: #e0a000;
+    border-color: #e0a000;
+}
+
+.plan-card:last-child{
+    border: 2px solid #FEB301;
+}
+
+.vat-p{
+    font-family: "Poppins", sans-serif;
+    color: #1A1C1C;
+    padding-bottom: 40px;
+    text-align: center;
+    text-align: center;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+/* invite section */
+
+.invite-container{
+    background-color: #FEB301;
+    padding-top: 60px;
+}
+
+.invite-head h1{
+    font-family: "Outfit", sans-serif;
+    color: #1A1C1C;
+    font-weight: 400;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.invite-head p{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #1A1C1C;
+    /* line-height: 1.7;
+    max-width: 860px; */
+    margin: 20px auto 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.invite-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+    flex-wrap: wrap;   /* stacks nicely on mobile */
+
+    padding-bottom: 40px;
+}
+
+.invite-btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    padding: 16px 32px;
+    border-radius: 10px;
+    text-decoration: none;
+
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+
+    transition: 0.3s ease;
+}
+
+/* Green button */
+.join-btn{
+    background-color: #1B5E20;
+    color: #FFFFFF;
+}
+
+.join-btn:hover{
+    background-color: #154a19;
+    transform: translateY(-2px);
+}
+
+/* Yellow button */
+.sales-btn{
+    background-color: #FEB301;
+    color: #1B5E20;
+    border: 2px solid #1B5E20;
+}
+
+.sales-btn:hover{
+    background-color: #e3a200;
+    transform: translateY(-2px);
+}
+
+/* ==========================================
+   Tablet & Mobile
+========================================== */
+
+@media (max-width: 768px){
+
+    /* Hero Section */
+    .hero-section{
+        min-height: 70vh;
+        padding: 100px 20px 60px;
+    }
+
+    .hero-section > .top-heading h1,
+    .hero-section > .mid-heading h1{
+        font-size: 2.5rem;
+    }
+
+    .hero-section > .bottom-heading h4{
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+
+    /* Features */
+
+    .features-section{
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .features-section > .columns-wrapper{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features-section > .columns-wrapper > .column{
+        margin: 20px;
+        max-width: 350px;
+    }
+
+    /* Statistics */
+
+    .stats-wrapper{
+        flex-direction: column;
+        gap: 40px;
+        padding: 50px 20px;
+    }
+
+    /* Pricing Cards */
+
+    .plans-section{
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;   
+        /* increase space between stacked cards */
+    }
+
+    .plan-card{
+        width: 90%;
+        max-width: 380px;
+    }
+
+    /* Invite Section */
+
+    .invite-head h1{
+        font-size: 2rem;
+    }
+
+    .invite-head p{
+        font-size: 1rem;
+        padding: 0 20px;
+    }
+
+    .invite-buttons{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .invite-btn{
+        width: 90%;
+        max-width: 320px;
+    }
+
+    /* Map heading */
+
+    .location{
+        font-size: 2rem;
+        text-align: center;
+        padding: 20px;
+    }
+
+    iframe{
+        height: 300px;
+    }
+}
+
+
+/* ==========================================
+   Small Phones
+========================================== */
+
+@media (max-width: 480px){
+
+    .hero-section > .top-heading h1,
+    .hero-section > .mid-heading h1{
+        font-size: 2rem;
+    }
+
+    .hero-section > .bottom-heading h4{
+        font-size: 0.95rem;
+    }
+
+    .paymain h1{
+        font-size: 2rem;
+        margin-left: 0;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .payhead{
+        margin-left: 0;
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .payp1{
+        margin-left: 0;
+        text-align: center;
+        padding: 20px;
+    }
+}
