@@ -1,0 +1,79 @@
+.legal-page{
+    background:#F5F5F5;
+    padding:80px 20px;
+}
+
+.legal-container{
+    max-width:900px;
+    margin:0 auto;
+
+    background:#FFFFFF;
+    padding:50px;
+
+    border-radius:20px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.legal-container h1{
+    margin-top:0;
+
+    font-family:"Outfit", sans-serif;
+    font-size:3rem;
+    font-weight:500;
+
+    color:#1A1C1C;
+}
+
+.last-updated{
+    color:#6B7280;
+    margin-bottom:40px;
+}
+
+.legal-container h2{
+    margin-top:35px;
+
+    font-family:"Poppins", sans-serif;
+    font-size:1.5rem;
+
+    color:#1B5E20;
+}
+
+.legal-container h3{
+    margin-top:25px;
+
+    font-family:"Poppins", sans-serif;
+    font-size:1.15rem;
+
+    color:#1A1C1C;
+}
+
+.legal-container p{
+    font-family:"Inter", sans-serif;
+    line-height:1.8;
+
+    color:#4B5563;
+}
+
+.legal-container ul{
+    margin: 15px 0 20px 25px;
+    padding: 0;
+}
+
+.legal-container li{
+    font-family: "Inter", sans-serif;
+    color: #4B5563;
+    line-height: 1.8;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 768px){
+
+    .legal-container{
+        padding:30px 24px;
+    }
+
+    .legal-container h1{
+        font-size:2.2rem;
+    }
+}

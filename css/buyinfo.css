@@ -324,6 +324,39 @@ QR Traceability
 }
 
 
+/* Map Section */
+
+.buyer-map-section{
+    padding: 40px;
+    background: #F5F5F5;
+    text-align: center;
+}
+
+.location{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #1B5E20;
+    margin-bottom: 30px;
+}
+
+.map-container{
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.map-container iframe{
+    width: 100%;
+    height: 450px;
+    display: block;
+    border: 0;
+}
+
+
+
 /* RESPONSIVENESS */
 
 /* Tablet */
