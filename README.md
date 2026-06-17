@@ -18,7 +18,8 @@ Precious MacPepple
 ## Frontend Built by
 Jessica Lekobane (Volunteer:Alumni)
 
-GitHub Respository: 
+GitHub Respository:  https://github.com/JessicaCharmaineL/Farmpalm
+Live Site: https://farmpalm-africa.netlify.app/
 
 ## Backend Built by (Not completed)
 Jessica Lekobane (Volunteer: Alumni)
